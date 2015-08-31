@@ -18,5 +18,17 @@
     "cheerio": "^0.19.0",
     "commander": "^2.8.1",
     "request": "^2.61.0"
-  }
+  },
+  "bin": {
+    "owe": "bin/owe.js"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diorahman/owe-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/diorahman/owe-cli/issues"
+  },
+  "homepage": "https://github.com/diorahman/owe-cli#readme"
 }
