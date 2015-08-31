@@ -1,6 +1,6 @@
 {
   "name": "owe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sini oWe blankon.in lu olang punya URL",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,8 @@
   "dependencies": {
     "cheerio": "^0.19.0",
     "commander": "^2.8.1",
-    "request": "^2.61.0"
+    "request": "^2.61.0",
+    "to-clipboard": "^0.1.0"
   },
   "bin": {
     "owe": "bin/owe.js"

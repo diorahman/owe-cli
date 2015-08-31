@@ -1,5 +1,6 @@
 var request = require('request');
 var cheerio = require('cheerio');
+var toClipboard = require('to-clipboard');
 
 module.exports = owe;
 
@@ -15,6 +16,7 @@ function crunch(data) {
   if (!el) {
     return;
   }
+  toClipboard(el.attribs.value, function(){});
   return { location: el.attribs.value};
 }
 

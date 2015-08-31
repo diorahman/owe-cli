@@ -14,5 +14,7 @@ $ npm install owe
 $ owe http://haha.com/hihi
 ```
 
+It will then fill your clipboard with the shortened url! Happy pasting!
+
 ## license 
 MIT
